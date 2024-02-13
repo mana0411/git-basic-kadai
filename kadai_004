@@ -1,0 +1,39 @@
+mado0@manami MINGW64 ~ (main)
+$ cd c:/Usere/mado0/onedrive/デスクトップ
+bash: cd: c:/Usere/mado0/onedrive/デスクトップ: No such file or directory
+
+mado0@manami MINGW64 ~ (main)
+$  cd c:/Users/mado0/onedrive/デスクトップ
+
+mado0@manami MINGW64 ~/onedrive/デスクトップ (main)
+$ mkdir git_challenge
+
+mado0@manami MINGW64 ~/onedrive/デスクトップ (main)
+$ cd  git_challenge
+
+mado0@manami MINGW64 ~/onedrive/デスクトップ/git_challenge (main)
+$ git init
+Initialized empty Git repository in C:/Users/mado0/OneDrive/デスクトップ/git_challenge/.git/
+
+mado0@manami MINGW64 ~/onedrive/デスクトップ/git_challenge (main)
+$ git add hello_world.txt
+
+mado0@manami MINGW64 ~/onedrive/デスクトップ/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 3dcff77] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt/Hello,world!.txt
+
+mado0@manami MINGW64 ~/onedrive/デスクトップ/git_challenge (main)
+$ git add hello_world.txt
+
+mado0@manami MINGW64 ~/onedrive/デスクトップ/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 8fbdc77] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "hello_world.txt/\343\201\223\343\202\223\343\201\253\343\201\241\343\201\257\343\200\201\344\270\226\347\225\214\357\274\201.txt"
+
+mado0@manami MINGW64 ~/onedrive/デスクトップ/git_challenge (main)
+$ git log --oneline
+8fbdc77 (HEAD -> main) 日本語訳を追記
+3dcff77 hello_world.txtを追加
